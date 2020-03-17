@@ -1,0 +1,125 @@
+body {
+    background-color:white;
+}
+
+/* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  background-color: rgb(255,192,203);
+  padding: 20px 10px;
+}
+
+/* Style the header links */
+.header ul li {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  padding-right: 50px;
+}
+.header a {
+    color: white;
+}
+
+.header ul li{
+    list-style-type: none;
+    text-decoration: none;
+}
+.header a{
+    
+    text-decoration: none;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header img {
+ width: 100px;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+    background-color: blue;
+   color: white;
+}
+
+/* Style the active/current link*/
+.header a.active {
+    background-color: teal;
+  color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+/* =================================
+  HERO section
+================================= */
+#hero {
+
+    /* Use "linear-gradient" to add a darken background */
+    background-image: linear-gradient(rgba(225, 192, 203, 0.5), rgba(225, 192, 203, 0.5)), url("../images/me.jpg.jpg");
+    height: 100vh;
+    /* width: 100%; */
+    
+    /* Position and center the image to scale nicely on all screens */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      overflow: hidden;
+      position: relative;
+    }
+    
+  
+    
+    /* Place text in the left of the image */
+    #hero h5 {
+      color: #038BB4;
+      font-size: 40px;
+      font-weight: 200;
+      line-height:130%;
+      font-weight: bolder;
+    }
+    .hero-text {
+      text-align: left;
+      position: absolute;
+      font-size: 30px;
+      font-weight: 200;
+      line-height:130%;
+      top: 40%;
+      left: 40%;
+      transform: translate(-50%, -50%);
+      color: #FCF3D3;
+    }
+    
+    .learnmore{
+      color: #038BB4;
+      background: #FCF3D3;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: bold;
+      font-size: 19px;
+      border: 2px solid #FCF3D3;
+      border-radius: 10px;
+      text-transform: uppercase;
+    }
+    
+    
+
+    .button {
+        background: #FCF3D3;
+        font-weight: bold;
+        border: none;
+        color: #038BB4;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+    

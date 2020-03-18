@@ -13,21 +13,14 @@ the <.header-right> you created is for what.. what role did it play in the html 
 i finally figured it was used to float the navagation to the right. but the logo was also there why didn't it float to the right too.
 since they are all in the .header 
 
-Answer: .header-right was created seperate to style the menu link not the logo, that was why the logo didnt shift to the left.. meanwhile the logo has it oown class
-        sepearte named .logo.. so the header-right was meant to style the nav menu link not the logo.. go tru the css again, youd understand
-
  the comment in the header section for the logo (*css*).. you pointed to notice that the same value was set for line-height and font- size but i couldn't those.
- Answer: Its nothing.. Line-height are just give space inbtwn the text.
 
 
  in the hero section for background-image why was the linear gradient repeated twice. 
- Answer: Yes.. thats how linear gradient are been used, repeatedtwice mean from up to down, or left to right, to the color will appear, the first rgba is up so the color
-        in the up section can be diffrent in the color in down section, check my css i made changes to it so u can understand
 
  you made the button "hire me" section a link... (an explanation will be greatly effective)
- Answer: Yea.. The hire me must be link to a page where they can fill form on what services they want for me, we will get there soon
 
  you styled the hero text with an id already and still styled it with a class.. it's a bit confusing.
- Answer: Yes dont be confused.. It is the same thing.. i why i use id is that if you rememebr if give a section an id name it cant be used again, its always unique. 
-        thats why i used id.. i prefer using id in some certain section so tht i would redefined it again through out my code.... If u u still bit confused
-        check out the different between id and class online.
+
+ 
+ 

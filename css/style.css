@@ -1,45 +1,86 @@
 body {
-    background-color:pink;
+    background-color: antiquewhite;
 }
-
-.hero-image {
-    background: url("../images/me.jpg.jpg");
-    height: 150vh;
-}
-.hero-text {
-    color: white;
-    text-align: center;
-}
-h1 {
-    font-weight: lighter;
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.header {
     overflow: hidden;
-    background-color: black;
+    background-color: rgb(220,20,60);
+    padding: 20px 10px;
 }
-.nav li {
+.header ul li {
     float: left;
-}
-.nav li a {
-    display: inline block;
+    color: midnightblue;
     text-align: center;
-    padding: 14px 16px;
+    padding: 12px;
     text-decoration: none;
-    color: white;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius:4px;
+    padding-right: 50px;
 }
-.nav li a:hover {
-    background-color: blue;
+.header a {
+    color:  wheat;
 }
-.logo img {
-    width: 90px;
-    height: auto;
+.header ul li {
+    list-style-type: none;
+    text-decoration: none;
 }
-.active {
-    background-color: teal;
+.header a {
+    text-decoration: none;
+}
+.header img {
+    width: 100px;
+}
+.header a:hover {
+    background-color: darkorchid;
+    color: floralwhite;
+}
+.header a.active {
+    background-color: goldenrod;
+    color: wheat;
+}
+.header-right {
+    float: right;
+}
+
+
+#hero {
+    background-image: linear-gradient(rgba(128,0,128,0.7), rgba(0,255,255,0.5)), url("../images/bb-pink.png");
+    height: 150vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+#hero h5 {
+    color: #0094fb;
+    font-size: 40px;
+    font-weight: 200;
+    line-height: 130%;
+    font-weight: bolder;
+}
+
+.hero-text {
+    color: gold;
+    text-align: left;
+    position: absolute;
+    font-size: 30px;
+    font-weight: 200;
+    line-height: 130%;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    float: center;
+}
+.button {
+    background: ivory;
+    font-weight: bold;
+    border: none;
+    color: gold;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
 }

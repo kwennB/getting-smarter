@@ -5,3 +5,19 @@ Great. I am impressed with you came up.. You really did well.. Nice One
 first i created my own index and css file sepearte and design something similar to what you did but different styling and approach/
 take time to go tru my index and css file to see the codes, anything you are not clear, type and ask tru this expalantion file and push to githun..
 thanks
+
+Thank you for the review and modified corrections...
+
+
+the <.header-right> you created is for what.. what role did it play in the html and css (more explanation in this will be very much appreciated)
+i finally figured it was used to float the navagation to the right. but the logo was also there why didn't it float to the right too.
+since they are all in the .header 
+
+ the comment in the header section for the logo (*css*).. you pointed to notice that the same value was set for line-height and font- size but i couldn't those.
+
+
+ in the hero section for background-image why was the linear gradient repeated twice. 
+
+ you made the button "hire me" section a link... (an explanation will be greatly effective)
+
+ you styled the hero text with an id already and still styled it with a class.. it's a bit confusing.

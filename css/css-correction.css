@@ -115,5 +115,58 @@ body {
         margin: 4px 2px;
         cursor: pointer;
       }
+
+
+      * {
+        box-sizing: border-box;
+    }
+
+    #about-me{
+      margin-top: 150px;
+      margin-bottom: 150px;
+    }
+
+    #about-me h2{
+      font-size: 40px;
+      text-align: center;
+      color: orange;
+      margin-bottom: 100px;
+    }
+    .column1 {
+        float: right;
+        width: 50%;
+       padding-right: 100px;
+        height: 90vh;
+    }
+    .column1 p{
+      font-size: 18px;
+      line-height: 1.5em;
+      text-align: justify;
+      margin-top: 80px;
+      animation-name: example;
+  animation-duration: 10s;
+      
+    }
+
+    @keyframes example {
+      from {color: black;}
+      to {color: orange;}
+    }
+    .column2 {
+        float: left;
+        width: 50%;
+        height: 90vh;
+        padding-left: 200px;
+    }
+    .column2 img {
+        width: 80%;
+        box-shadow: orange 10px 10px;
+    }
+    
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
       
     

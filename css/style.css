@@ -87,24 +87,54 @@ body {
 * {
     box-sizing: border-box;
 }
+#about-me {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#about-me h2{
+    font-size: 50px;
+    text-align: center;
+    margin: 100px;
+    padding: 50px;
+    color: indianred;
+}
+
 .column1 {
     float: left;
     width: 50%;
-    padding: 10px;
-    height: 600px;
-    background-color: cadetblue;
+    padding-top: 10px;
+    padding-right: 10px;
+    height: 300px;   
 }
+.column1 p{
+    font-size: 20px;
+    line-height: 1.7em;
+    text-align: justify;
+    margin-top: 50px;
+    animation-name: example;
+    animation-duration: 15s;
+    animation-delay: 3s;
+
+}
+
+@keyframes example{
+    from {color: blue;}
+    to {color: red}
+}
+
+
 .column2 {
     float: right;
     width: 50%;
-    padding: 10px;
-    height: 100vh;
-    padding-right: 10px;
-    background-color: cyan;
+    padding-bottom: 10px;
+    height: 80vh;
+    padding-right: 10px; 
+    padding-left: 100px;   
 }
 .column2 img {
-    width: 700px;
-    height: 500px;
+    width: 70%;
+    box-shadow: 10px 10px orangered;
+    
 }
 .row:after {
     content: "";

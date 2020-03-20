@@ -20,6 +20,15 @@ since they are all in the .header
 
  you made the button "hire me" section a link... (an explanation will be greatly effective)
 
+
+
+ Thank you; the site looks really improved from my earlier modifications.
+ you added *the keyframe rule* and it is the rule that specifies that an animation will work.
+           *the animation-name: (set to example)
+           *the animation duration(set to 10seconds)*   the animation will also not run without a specified duration.
+           
+
+
  you styled the hero text with an id already and still styled it with a class.. it's a bit confusing.
 
  

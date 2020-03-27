@@ -190,3 +190,9 @@ body {
     display: table;
     clear: both;
 }
+i {
+    color: red;
+}
+.awesome {
+    margin-top: 20px;
+}

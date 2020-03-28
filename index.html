@@ -4,22 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my website</title>
-    <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
+
+    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
     <link rel="stylesheet"  href="css/style.css">
 </head>
 <body>
+
     <!--Header Section-->
     <div class="header">
        <a href="#default" class="logo"><img src="images/b with crown.jpeg"></a>
-    <div class="header-right">
-        <ul>
-            <li><a class= "active" href= "/home/" >HOME</a></li>
-            <li><a href= "/about me/" >ABOUT ME</a></li>
-            <li><a href= "/contact me/" >CONTACT ME</a></li>
-            <li><a href= "/gallery/" >GALLERY</a></li>
-        </ul>
+        <div class="header-right">
+            <ul>
+                <li><a class= "active" href= "/home/" >HOME</a></li>
+                <li><a href= "/about me/" >ABOUT ME</a></li>
+                <li><a href= "/contact me/" >CONTACT ME</a></li>
+                <li><a href= "/gallery/" >GALLERY</a></li>
+            </ul>
+        </div>
     </div>
-    </div>
+
     <!--Hero Section-->
    <section id="hero">
        <div class="hero-image">
@@ -29,54 +33,66 @@
            </div>
        </div>
    </section>
+
    <section id="about-me">
-    <h2>About Me</h2>
-    <div class="row">
-        <div class="column1">
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi rerum impedit sint rem ut eos nobis optio expedita necessitatibus odit cupiditate aperiam illum nulla commodi qui, vel deleniti quod? Veritatis?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem iste similique placeat recusandae sint quod, nostrum laudantium quis tempore obcaecati beatae, expedita esse suscipit excepturi minus soluta? Est, non natus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae optio at alias deleniti qui, excepturi cum rem obcaecati delectus nesciunt porro ducimus quas quisquam sunt nam ullam cupiditate doloribus eius. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur earum sequi eligendi pariatur voluptatibus molestiae incidunt neque aliquid voluptas cumque aut quidem, hic labore veniam. Eligendi quos autem qui earum?
-            </p>
+        <h2>About Me</h2>
+        <div class="row">
+            <div class="column1">
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi rerum impedit sint rem ut eos nobis optio expedita necessitatibus odit cupiditate aperiam illum nulla commodi qui, vel deleniti quod? Veritatis?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem iste similique placeat recusandae sint quod, nostrum laudantium quis tempore obcaecati beatae, expedita esse suscipit excepturi minus soluta? Est, non natus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae optio at alias deleniti qui, excepturi cum rem obcaecati delectus nesciunt porro ducimus quas quisquam sunt nam ullam cupiditate doloribus eius. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur earum sequi eligendi pariatur voluptatibus molestiae incidunt neque aliquid voluptas cumque aut quidem, hic labore veniam. Eligendi quos autem qui earum?
+                </p>
+            </div>
+            <div class="column2">            
+                <img src= "images/bb-in-jeanjacket.jpg">
+                <p>You can be whoever you choose to be</p>
+            </div>
         </div>
-        <div class="column2">            
-            <img src= "images/bb-in-jeanjacket.jpg">
-            <p>You can be whoever you choose to be</p>
-        </div>
-    </div>
-   </section>
-    <script src="js/app.js"></script>
+    </section>
+    
     <section id="gallery">
         <h2>GALLERY</h2>
-    <div class="row">
-        <div class="column">
-            <div class="card">
-            <img src="images/bb-in-jeanjacket.jpg" class="img1">
-            <p>A picture of bibi in jean jacket</p>
-           </div>
-        </div>
-        <div class="column">
-            <div class="card">
-            <img src="images/bb-orangeTop.jpg">
-            <p>Get-together at millenium park</p>
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <img src="images/bb-in-jeanjacket.jpg" class="img1">
+                    <p>A picture of bibi in jean jacket</p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="images/bb-orangeTop.jpg">
+                    <p>Get-together at millenium park</p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="images/bb-whiteSng.jpg">
+                    <p>At ART and Culture Center </p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="images/blue-water.jpg" class="img4">
+                    <p>A picture of the blue sea and some lives in it</p>
+                </div>
             </div>
         </div>
-        <div class="column">
-            <div class="card">
-            <img src="images/bb-whiteSng.jpg">
-            <p>At ART and Culture Center </p>
-            </div>
-        </div>
-        <div class="column">
-            <div class="card">
-            <img src="images/blue-water.jpg" class="img4">
-            <p>A picture of the blue sea and some lives in it</p>
-           </div>
-        </div>
-    </div>
     </section>
+
     <div class="awesome">
-        <i class="fab fa-whatsapp"> whatsapp</i>
-        <i class="fa fa-twitter"></i>
+        <i class="fa fa-3x fa-meetup"></i><a href=""> Meetup</a>
+        <i class="fa fa-3x fa-whatsapp"></i><a href=""> Whatsapp</a>
+        <i class="fa fa-3x fa-facebook"></i><a href=""> Facebook</a>
+        <i class="fa fa-3x fa-telegram"></i><a href=""> Telegram</a>
+        <i class="fa fa-3x fa-twitter"></i><a href="">  Twitter</a>
     </div>
+
+
+
+    <script src="js/app.js"></script>
 </body>
 </html>
 
